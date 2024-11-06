@@ -1,6 +1,7 @@
+```mermaid
 sequenceDiagram
-participant browser
-participant server
+    participant browser
+    participant server
 
     Note right of browser: Người dùng nhập ghi chú và nhấn nút "Save"
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note (data: ghi chú mới)
@@ -9,3 +10,4 @@ participant server
     deactivate server
 
     Note right of browser: Trình duyệt thêm ghi chú mới vào giao diện mà không tải lại trang
+```
